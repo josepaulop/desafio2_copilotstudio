@@ -1,17 +1,38 @@
-# desafio1_copilotstudio
+# desafio2_copilotstudio
 ### Resolução do desafio prático do bootcamp Python Developer que na trilha de Copilot Studio solicita para fazer um resumo sobre o que eu aprendi até o momento.
 
 
-### O Microsoft Copilot Studio é uma ferramenta incrível que permite aos desenvolvedores criarem seus próprios copilotos de IA (inteligência artificial). Pense nisso como um estúdio onde você pode moldar uma IA para ser um assistente personalizado. Aqui está um resumo mais humanizado das suas capacidades:
+### **Criar um Copilot em Branco**
+Quando você cria um copilot em branco no Microsoft Copilot Studio, é como começar com uma folha em branco para moldar exatamente o assistente que você quer. Sem modelos ou restrições, você tem liberdade total para criar algo único e perfeitamente alinhado às suas necessidades.
 
-### Conectando ao Microsoft 365: Primeiro, você precisa de uma conta no Microsoft 365. Isso é como a chave para entrar no Copilot Studio e começar a criar.
+---
 
-### Copilot Baseado em Modelo: Imagine ter um ponto de partida pronto para ser ajustado. Você pode pegar um modelo existente e personalizá-lo para atender às suas necessidades específicas.
+### **Tópicos Customizados com Variáveis Locais e Globais**
+- **Variáveis Locais**: São úteis quando você quer algo que funcione apenas dentro de um fluxo ou tópico específico. Por exemplo, guardar o nome de um cliente só para aquela interação.
+- **Variáveis Globais**: Essas vão além de um único tópico e podem ser usadas por todo o chatbot. É ótimo para informações que você precisa acessar em diferentes momentos, como o ID de um usuário ou preferências gerais.
 
-### Copilot Baseado em Descrição com IA: Com base nas descrições que você fornecer, a IA do Copilot Studio cria um copilot que se encaixa nesses requisitos. É como descrever um personagem e ver ele ganhar vida!
+Essas variáveis ajudam a deixar as interações mais personalizadas e dinâmicas, melhorando a experiência do usuário.
 
-### Copilot em Branco: Se você gosta de começar do zero e quer total liberdade para criar, essa é a opção. Aqui você pode desenvolver seu copilot sem limitações iniciais.
+---
 
-### Personalização e Integração: O estúdio oferece ferramentas para ajustar o comportamento, a linguagem e o tom do copilot, além de permitir integrações com diversas plataformas e serviços. Isso garante que seu copilot possa ser utilizado em diferentes ambientes.
+### **Criação de Entidades**
+Imagine as entidades como "categorias" para organizar informações. Um exemplo seria o **Número de Pedido**. Isso ajuda o copilot a identificar e tratar dados específicos de maneira eficiente. É fácil criar novas entidades no Studio, e elas são fundamentais para entender melhor as entradas dos usuários.
 
-### Essas capacidades permitem que os desenvolvedores criem copilotos de IA que realmente atendem às suas necessidades e expectativas, proporcionando flexibilidade e controle total durante o processo de criação.
+---
+
+### **Mensagens Personalizadas para Erros**
+Ninguém gosta de se perder ou encontrar erros, então por que não tornar isso uma oportunidade? Criar mensagens personalizadas para momentos de erro, como *"Parece que não entendi. Pode tentar reformular?"*, torna o bot mais amigável e acolhedor. Isso ajuda a criar uma boa relação com o usuário, mesmo quando as coisas não saem como planejado.
+
+---
+
+### **Respostas de Qualidade com IA Generativa**
+A chave para respostas incríveis é:
+- Ser claro e direto, mas amigável.
+- Usar o contexto da conversa (dados e variáveis) para trazer respostas úteis.
+- Deixar a interação fluida, quase como se fosse um bate-papo com um amigo.
+
+Quando o copilot entrega respostas bem feitas, ele se torna muito mais do que um simples assistente – vira uma extensão confiável da experiência do usuário.
+
+---
+
+Essas práticas tornam o trabalho no Microsoft Copilot Studio não só produtivo, mas também divertido e envolvente.
